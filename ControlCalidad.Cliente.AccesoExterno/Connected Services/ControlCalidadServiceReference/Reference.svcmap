@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f120d082-2c44-4d46-8bcb-b5c2bce809f4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/ControlCalidadServicio/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="3e3266fe-a6be-431f-ad07-55f420fef149" SourceId="1" SourceUrl="http://localhost:8733/ControlCalidadServicio/?disco" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="6806af92-0e82-4c27-b72d-bf7c15103f27" SourceId="1" SourceUrl="http://localhost:8733/ControlCalidadServicio/?xsd=xsd1" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="ea948ff8-b53b-460e-9b0e-0a1e3f8d92e2" SourceId="1" SourceUrl="http://localhost:8733/ControlCalidadServicio/?xsd=xsd0" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="6390a114-ca20-4bfb-aaf0-6333b896cabc" SourceId="1" SourceUrl="http://localhost:8733/ControlCalidadServicio/?xsd=xsd3" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="c2fd8554-6f1f-4053-9bcc-646fa0f597b1" SourceId="1" SourceUrl="http://localhost:8733/ControlCalidadServicio/?xsd=xsd2" />
+    <MetadataFile FileName="ControlCalidadServicio.wsdl" MetadataType="Wsdl" ID="736d8900-bb9d-47f9-ac5d-d62155d9f6b8" SourceId="1" SourceUrl="http://localhost:8733/ControlCalidadServicio/?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
